@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* 모바일 터치 제스처 최적화 */
+html, body {
+  overscroll-behavior: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
